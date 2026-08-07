@@ -1,0 +1,9 @@
+{
+  "name": "belleville-spray-foam-insulation",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
