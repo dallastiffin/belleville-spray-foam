@@ -1,4 +1,6 @@
-name = "belleville-spray-foam-insulation"
+﻿name = "belleville-spray-foam"
 compatibility_date = "2026-08-01"
-pages_build_output_dir = "dist"
 
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
