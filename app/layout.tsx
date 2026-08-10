@@ -6,8 +6,10 @@ const display = Barlow_Condensed({ variable: "--font-display", subsets: ["latin"
 const body = DM_Sans({ variable: "--font-body", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bellevillesprayfoaminsulation.com"),
   title: "Belleville Spray Foam Insulation",
   description: "Professional spray foam insulation for homes and buildings in Belleville and the Quinte region.",
+  alternates: { canonical: "./" },
   other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
