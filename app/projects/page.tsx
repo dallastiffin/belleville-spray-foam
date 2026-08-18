@@ -19,7 +19,7 @@ export default function ProjectsPage() {
         <p className="eyebrow dark"><span /> Labeled application gallery</p>
         <h1>Real work.<br /><em>Explained.</em></h1>
         <div className="projects-hero-copy">
-          <p>See {count} spray foam applications from attics and foundations to garages and new construction. Each example highlights the preparation, installation details, and building-envelope goals behind the work.</p>
+          <p>See {count} spray foam insulation applications across attics, foundations, garages, walls, and new construction. Each example explains spray foam preparation, insulation details, and building-envelope goals.</p>
           <a className="button" href="#attics-rooflines">Explore the gallery <span>↓</span></a>
         </div>
       </section>
@@ -65,8 +65,8 @@ export default function ProjectsPage() {
 
       <section className="service-cta">
         <p className="eyebrow"><span /> Your space is different</p>
-        <h2>Let’s plan the right application.</h2>
-        <p>Share what you are insulating and we’ll help you understand the preparation, foam type, and next steps that fit your building.</p>
+        <h2>Let’s plan the right spray foam insulation.</h2>
+        <p>Share what you are insulating and we’ll explain the preparation, spray foam type, insulation depth, and next steps that fit your building.</p>
         <a className="button" href="/#quote">Request a free estimate <span>↗</span></a>
       </section>
       <SiteFooter />
