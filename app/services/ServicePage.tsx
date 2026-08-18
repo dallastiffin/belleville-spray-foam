@@ -38,7 +38,7 @@ export default function ServicePage({ service }: { service: Service }) {
       <section className="service-benefits section">
         <div className="section-heading compact">
           <p className="eyebrow"><span /> Why it works</p>
-          <h2>Comfort starts with<br />continuous coverage.</h2>
+          <h2>Performance starts<br />with continuous coverage.</h2>
         </div>
         <div className="service-benefit-grid">
           {service.benefits.map((benefit, index) => (
@@ -79,8 +79,8 @@ export default function ServicePage({ service }: { service: Service }) {
 
       <section className="service-cta">
         <p className="eyebrow"><span /> Free project estimate</p>
-        <h2>Let’s build a<br />tighter envelope.</h2>
-        <p>Tell us about the space and we’ll help identify the right spray foam approach for your project.</p>
+        <h2>Plan a tighter<br />building envelope.</h2>
+        <p>Tell us about the space and we’ll recommend an approach suited to your assembly, comfort goals, and Belleville property.</p>
         <a className="button" href="/#quote">Plan your project <span>↗</span></a>
       </section>
       <SiteFooter />
