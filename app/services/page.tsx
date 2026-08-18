@@ -15,7 +15,7 @@ export default function AllServicesPage() {
       <section className="services-index-hero">
         <p className="eyebrow dark"><span /> Belleville & the Quinte region</p>
         <h1>All <em>Services</em></h1>
-        <p>Spray foam solutions for the spaces, assemblies, and project stages that shape a more comfortable building.</p>
+        <p>Explore Belleville spray foam insulation for attics, basements, crawl spaces, garages, new construction, and other assemblies. Every spray foam recommendation starts with the building and its insulation needs.</p>
       </section>
       <section className="services-index section">
         <div className="services-index-grid">
@@ -29,8 +29,8 @@ export default function AllServicesPage() {
       </section>
       <section className="service-cta">
         <p className="eyebrow"><span /> Not sure where to start?</p>
-        <h2>Tell us about<br />your space.</h2>
-        <p>We’ll look at the building, the problem you’re solving, and the assembly before recommending a product or approach.</p>
+        <h2>Tell us about your<br />insulation project.</h2>
+        <p>We inspect the building and the problem you want to solve before recommending a spray foam insulation product, depth, or application plan.</p>
         <a className="button" href="/#quote">Request an estimate <span>↗</span></a>
       </section>
       <SiteFooter />
