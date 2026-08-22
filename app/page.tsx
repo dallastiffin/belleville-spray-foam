@@ -59,7 +59,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button" href="#quote">Plan your project <span>↗</span></a>
-            <a className="text-link" href="#why-foam">See how it works <span>↓</span></a>
+            <a className="text-link" href="tel:+16139127508">Call (613) 912-7508 <span>☎</span></a>
           </div>
         </div>
         <div className="hero-art">
