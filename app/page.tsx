@@ -58,7 +58,7 @@ export default function Home() {
             Professional spray foam insulation for quieter, more comfortable Belleville homes and buildings. Our local crew matches spray foam and insulation depth to each assembly.
           </p>
           <div className="hero-actions">
-            <a className="button" href="#quote">Plan your project <span>↗</span></a>
+            <a className="button" href="#quote">Get a free estimate <span>↗</span></a>
             <a className="button button-secondary" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call Now</a>
           </div>
         </div>
