@@ -20,7 +20,10 @@ export default function ProjectsPage() {
         <h1>Real work.<br /><em>Explained.</em></h1>
         <div className="projects-hero-copy">
           <p>See {count} spray foam insulation applications across attics, foundations, garages, walls, and new construction. Each example explains spray foam preparation, insulation details, and building-envelope goals.</p>
-          <a className="button" href="#attics-rooflines">Explore the gallery <span>↓</span></a>
+          <div className="cta-actions">
+            <a className="button" href="#attics-rooflines">Explore the gallery <span>↓</span></a>
+            <a className="button button-secondary" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call Now</a>
+          </div>
         </div>
       </section>
 
@@ -67,7 +70,10 @@ export default function ProjectsPage() {
         <p className="eyebrow"><span /> Your space is different</p>
         <h2>Let’s plan the right spray foam insulation.</h2>
         <p>Share what you are insulating and we’ll explain the preparation, spray foam type, insulation depth, and next steps that fit your building.</p>
-        <a className="button" href="/#quote">Request a free estimate <span>↗</span></a>
+        <div className="cta-actions">
+          <a className="button" href="/#quote">Request a free estimate <span>↗</span></a>
+          <a className="button button-call-light" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call (613) 912-7508</a>
+        </div>
       </section>
       <SiteFooter />
     </main>
