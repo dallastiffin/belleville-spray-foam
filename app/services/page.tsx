@@ -31,7 +31,10 @@ export default function AllServicesPage() {
         <p className="eyebrow"><span /> Not sure where to start?</p>
         <h2>Tell us about your<br />insulation project.</h2>
         <p>We inspect the building and the problem you want to solve before recommending a spray foam insulation product, depth, or application plan.</p>
-        <a className="button" href="/#quote">Request an estimate <span>↗</span></a>
+        <div className="cta-actions">
+          <a className="button" href="/#quote">Request an estimate <span>↗</span></a>
+          <a className="button button-call-light" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call (613) 912-7508</a>
+        </div>
       </section>
       <SiteFooter />
     </main>
