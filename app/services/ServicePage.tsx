@@ -14,7 +14,10 @@ export default function ServicePage({ service }: { service: Service }) {
           <p className="eyebrow dark"><span /> {service.eyebrow}</p>
           <h1>{service.title}</h1>
           <p>{service.intro}</p>
-          <a className="button" href="/#quote">Request an estimate <span>↗</span></a>
+          <div className="cta-actions">
+            <a className="button" href="/#quote">Request an estimate <span>↗</span></a>
+            <a className="button button-secondary" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call Now</a>
+          </div>
         </div>
         <figure className="service-hero-image">
           <img src={service.image} alt={service.imageAlt} />
@@ -81,7 +84,10 @@ export default function ServicePage({ service }: { service: Service }) {
         <p className="eyebrow"><span /> Free project estimate</p>
         <h2>Plan a tighter<br />building envelope.</h2>
         <p>Tell us about the space and we’ll recommend an approach suited to your assembly, comfort goals, and Belleville property.</p>
-        <a className="button" href="/#quote">Plan your project <span>↗</span></a>
+        <div className="cta-actions">
+          <a className="button" href="/#quote">Plan your project <span>↗</span></a>
+          <a className="button button-call-light" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call (613) 912-7508</a>
+        </div>
       </section>
       <SiteFooter />
     </main>
