@@ -30,7 +30,7 @@ export default function SiteHeader() {
           <a href="/#process">Process</a>
         </nav>
         <div className="header-ctas">
-          <a className="header-call" href="tel:+16139127508" aria-label="Call Belleville Spray Foam Insulation at 613-912-7508">Call (613) 912-7508</a>
+          <a className="button button-small header-call" href="tel:+16139127508" aria-label="Call Belleville Spray Foam Insulation at 613-912-7508"><span aria-hidden="true">☎</span> Call Now</a>
           <a className="button button-small header-quote" href="/#quote">Get a free quote</a>
         </div>
       </header>
