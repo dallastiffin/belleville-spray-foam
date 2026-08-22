@@ -11,24 +11,32 @@ const serviceLinks = [
 
 export default function SiteHeader() {
   return (
-    <header className="site-header">
-      <a className="brand" href="/" aria-label="Belleville Spray Foam home">
-        <span className="brand-mark">B</span>
-        <span>Belleville<br />Spray Foam</span>
+    <>
+      <header className="site-header">
+        <a className="brand" href="/" aria-label="Belleville Spray Foam home">
+          <span className="brand-mark">B</span>
+          <span>Belleville<br />Spray Foam</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <details className="services-menu">
+            <summary>Services <span aria-hidden="true">⌄</span></summary>
+            <div className="services-menu-panel">
+              <p>Insulation services</p>
+              {serviceLinks.map(([label, href]) => <a href={href} key={href}>{label}<span aria-hidden="true">↗</span></a>)}
+            </div>
+          </details>
+          <a href="/projects">Our work</a>
+          <a href="/#why-foam">Why spray foam</a>
+          <a href="/#process">Process</a>
+        </nav>
+        <div className="header-ctas">
+          <a className="header-call" href="tel:+16139127508" aria-label="Call Belleville Spray Foam Insulation at 613-912-7508">Call (613) 912-7508</a>
+          <a className="button button-small header-quote" href="/#quote">Get a free quote</a>
+        </div>
+      </header>
+      <a className="mobile-call-button" href="tel:+16139127508" aria-label="Call Belleville Spray Foam Insulation at 613-912-7508">
+        <span aria-hidden="true">☎</span> Call (613) 912-7508
       </a>
-      <nav aria-label="Main navigation">
-        <details className="services-menu">
-          <summary>Services <span aria-hidden="true">⌄</span></summary>
-          <div className="services-menu-panel">
-            <p>Insulation services</p>
-            {serviceLinks.map(([label, href]) => <a href={href} key={href}>{label}<span aria-hidden="true">↗</span></a>)}
-          </div>
-        </details>
-        <a href="/projects">Our work</a>
-        <a href="/#why-foam">Why spray foam</a>
-        <a href="/#process">Process</a>
-      </nav>
-      <a className="button button-small" href="/#quote">Get a free quote</a>
-    </header>
+    </>
   );
 }
