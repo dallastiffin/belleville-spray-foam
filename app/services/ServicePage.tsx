@@ -85,7 +85,7 @@ export default function ServicePage({ service }: { service: Service }) {
         <h2>Plan a tighter<br />building envelope.</h2>
         <p>Tell us about the space and we’ll recommend an approach suited to your assembly, comfort goals, and Belleville property.</p>
         <div className="cta-actions">
-          <a className="button" href="/#quote">Plan your project <span>↗</span></a>
+          <a className="button" href="/#quote">Get a free estimate <span>↗</span></a>
           <a className="button button-call-light" href="tel:+16139127508"><span aria-hidden="true">☎</span> Call (613) 912-7508</a>
         </div>
       </section>
