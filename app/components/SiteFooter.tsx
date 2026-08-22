@@ -14,7 +14,10 @@ export default function SiteFooter() {
         />
       </div>
       <a className="brand" href="/"><span className="brand-mark">B</span><span>Belleville<br />Spray Foam</span></a>
-      <p>Local spray foam insulation. Lasting comfort.</p>
+      <div className="footer-contact">
+        <p>Local spray foam insulation. Lasting comfort.</p>
+        <a href="tel:+16139127508">Call (613) 912-7508</a>
+      </div>
       <p>© 2026 Belleville Spray Foam Insulation</p>
     </footer>
   );
